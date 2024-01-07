@@ -24,6 +24,15 @@ body {
 
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+
 /* nav styles */
 nav {
     display: flex;
@@ -97,7 +106,24 @@ nav a {
 .banner-description {
     color: #757575;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 380;
     line-height: 30px;
     margin-bottom: 30px;
+}
+
+/* main section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
 }
